@@ -1,7 +1,7 @@
 <!doctype html>
 <html lang="en">
   <head>
-    <title>Hello, world!</title>
+    <title>HTTPLib</title>
     <!-- Required meta tags -->
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -22,7 +22,7 @@
 			<a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
 		  </li>
 		  <li class="nav-item">
-			<a class="nav-link" href="#">Data</a>
+			<a class="nav-link" href="post/view.php">Data</a>
 		  </li>
 		  </li>
 		</ul>
@@ -46,8 +46,9 @@
 				  </div>
 				  <ul class="list-group list-group-flush">
 					<li class="list-group-item"><a href="get/ip.php">/ip</a> &nbsp Returns the IP Address</li>
-					<li class="list-group-item"><a href="#">/get</a> &nbsp Return Random Data</li>
-					<li class="list-group-item"><a href="#">/cookies</a> &nbsp Returns Cookies</li>
+					<li class="list-group-item"><a href="#">/get</a> &nbsp Return GET Data</li>
+					<li class="list-group-item"><a href="#">/set_cookies</a> &nbsp Set Cookies</li>
+					<li class="list-group-item"><a href="#">/get_cookies</a> &nbsp Get the current Cookies</li>
 					<li class="list-group-item"><a href="get/json.php">/json</a>&nbsp Returns Random JSON Data</li>
 					<li class="list-group-item"><a href="#">/user-agent</a> &nbsp Returns the User Agent</li>
 					<li class="list-group-item"><a href="#">/xml</a> &nbsp Returns Data in XML</li>
