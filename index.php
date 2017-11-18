@@ -28,6 +28,7 @@
 		</ul>
 	  </div>
 	</nav>
+	<a href="https://github.com/sreesdas/httplib"><img style="position: absolute; top: 0; right: 0; border: 0;" src="https://camo.githubusercontent.com/e7bbb0521b397edbd5fe43e7f760759336b5e05f/68747470733a2f2f73332e616d617a6f6e6177732e636f6d2f6769746875622f726962626f6e732f666f726b6d655f72696768745f677265656e5f3030373230302e706e67" alt="Fork me on GitHub" data-canonical-src="https://s3.amazonaws.com/github/ribbons/forkme_right_green_007200.png"></a>
 	<div class="jumbotron">
 	  <h1 class="display-3">Welcome, WebDevs!</h1>
 	  <p class="lead"> This is a free web-service portal to test the GET/POST requests in your web application </p>
@@ -46,15 +47,15 @@
 				  </div>
 				  <ul class="list-group list-group-flush">
 					<li class="list-group-item"><a href="get/ip.php">/ip</a> &nbsp Returns the IP Address</li>
-					<li class="list-group-item"><a href="#">/get</a> &nbsp Return GET Data</li>
-					<li class="list-group-item"><a href="#">/set_cookies</a> &nbsp Set Cookies</li>
-					<li class="list-group-item"><a href="#">/get_cookies</a> &nbsp Get the current Cookies</li>
+					<li class="list-group-item"><a href="get/headers.php">/headers</a> &nbsp Returns the Headers</li>
+					<li class="list-group-item"><a href="get/get.php">/get</a> &nbsp Return GET Data</li>
+					<li class="list-group-item"><a href="get/set_cookie.php">/set_cookies</a> &nbsp Set Cookies</li>
+					<li class="list-group-item"><a href="get/get_cookie.php">/get_cookies</a> &nbsp Get the current Cookies</li>
 					<li class="list-group-item"><a href="get/json.php">/json</a>&nbsp Returns Random JSON Data</li>
-					<li class="list-group-item"><a href="#">/user-agent</a> &nbsp Returns the User Agent</li>
-					<li class="list-group-item"><a href="#">/xml</a> &nbsp Returns Data in XML</li>
-					<li class="list-group-item"><a href="#">/headers</a> &nbsp Returns the Headers</li>
-					<li class="list-group-item"><a href="#">/html</a> &nbsp Renders a HTML Page</li>
-					<li class="list-group-item"><a href="#">/image</a> &nbsp Returns an Image</li>
+					<li class="list-group-item"><a href="get/user-agent.php">/user-agent</a> &nbsp Returns the User Agent</li>
+					<li class="list-group-item"><a href="get/xml.php">/xml</a> &nbsp Returns Data in XML</li>
+					<li class="list-group-item"><a href="get/html.php">/html</a> &nbsp Renders a HTML Page</li>
+					<li class="list-group-item"><a href="get/image.php">/image</a> &nbsp Returns an Image</li>
 				  </ul>
 				</div>
 			</div>
